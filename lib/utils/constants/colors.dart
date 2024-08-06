@@ -35,7 +35,7 @@ class TColors {
   
   //Button Colors 
   static const Color buttonPrimary = Color(0xFF4b68ff);
-  static const Color ButtinSecondary = Color(0xFF6C757D);
+  static const Color buttonSecondary = Color(0xFF6C757D);
   static const Color buttonDisabled = Color(0xFFC4C4C4);
   
   //Border Colors
