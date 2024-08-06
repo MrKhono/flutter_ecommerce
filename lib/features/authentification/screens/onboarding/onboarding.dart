@@ -11,10 +11,10 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/image_strings.dart';
 import '../../controllers/onboarding/onboarding_controller.dart';
-import '../../controllers/onboarding/widegts/OnBoardingNextButton.dart';
-import '../../controllers/onboarding/widegts/onboarding_dot_navigation.dart';
-import '../../controllers/onboarding/widegts/onboarding_page.dart';
-import '../../controllers/onboarding/widegts/onboarding_skip.dart';
+import 'widegts/OnBoardingNextButton.dart';
+import 'widegts/onboarding_dot_navigation.dart';
+import 'widegts/onboarding_page.dart';
+import 'widegts/onboarding_skip.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
