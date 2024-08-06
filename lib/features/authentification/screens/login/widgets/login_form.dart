@@ -1,14 +1,18 @@
+import 'package:ecommerce_app/features/authentification/screens/signup/widgets/signup.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final dark = THelperFunctions.isDarkMode(context);
     return Form(
         child:
         Padding(
@@ -55,7 +59,7 @@ class TLoginForm extends StatelessWidget {
               const SizedBox(height: TSizes.spaceBtwItems,),
 
               /// Create Account Button
-              SizedBox(width: double.infinity ,child: OutlinedButton(onPressed: (){}, child: const Text(TTexts.createAccount))),
+              SizedBox(width: double.infinity ,child: OutlinedButton(onPressed: () => Get.to(() => const SignupScreen()), child: const Text(TTexts.createAccount))),
               const SizedBox(height: TSizes.spaceBtwSections,),
             ],
           ),

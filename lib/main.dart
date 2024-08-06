@@ -13,7 +13,7 @@ void main() {
   //Todo: Initialiaze Authentification
 
 
-  runApp(const App());
+  runApp( const App());
 }
 
 
